@@ -123,9 +123,9 @@ Deliberately deferred to later steps:
 
 ---
 
-## 8. Open Questions for Steve
+## 8. Resolved Questions
 
-1. Does this set of elements feel right? Anything missing that you'd want to capture about a decision? Anything here that feels like overhead you wouldn't fill in?
-2. The `confidence` field is speculative — is this useful to you, or is it noise?
-3. The `alternatives` field: in practice, would you capture these, or does the rationale usually cover "why not X" implicitly?
-4. Should `actors` be required or optional? For a personal system, it might always just be "Steve" — making it noise. But for cross-project decisions involving others, it could matter.
+1. **Element set** — Steve confirmed this is a good initial start.
+2. **Confidence** — Keep as optional. Useful when present, no overhead when omitted.
+3. **Alternatives** — Keep as optional. Same reasoning.
+4. **Actors** — Confirmed optional.

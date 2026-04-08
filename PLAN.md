@@ -26,7 +26,7 @@ Research and summarize the Foundation Capital POV on context graphs and relevant
 ---
 
 ## Step 2: Define the Information Model
-**Status:** Not started
+**Status:** Complete (confirmed by Steve)
 
 Before picking a format, define what a context graph must contain. Likely elements:
 - The decision made
