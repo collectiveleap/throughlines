@@ -26,17 +26,18 @@ Research and summarize the Foundation Capital POV on context graphs and relevant
 ---
 
 ## Step 2: Define the Information Model
-**Status:** Complete (confirmed by Steve)
+**Status:** Revised (incorporates Step 1 cross-domain analysis)
 
-Before picking a format, define what a context graph must contain. Likely elements:
-- The decision made
-- The context (situation, inputs, constraints)
-- The alternatives considered
-- The rationale (why this choice)
-- Links to prior similar decisions (precedent)
-- Metadata (who, when, domain/project)
+Define what a context graph must contain, grounded in a cross-domain comparison of attributes used by existing implementations.
 
-**Output:** Information model spec (schema or structured description)
+**Output:** `step-2-information-model.md`
+
+**Covers:**
+- Attribute inventory across 24 attributes found in surveyed implementations
+- Cross-domain relevance matrix (7 domains × 24 attributes)
+- Core model (6 required + 11 optional elements) with inclusion rationale
+- Comparison table: this model vs 7 existing models
+- Deliberately excluded attributes with reasoning
 
 ---
 
