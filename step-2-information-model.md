@@ -86,27 +86,30 @@ Traces are ordered by date. Within a domain, this ordering represents the evolut
 
 ## 6. Minimal Example
 
-A concrete example to ground the model — a software development decision:
+A real decision trace from Steve's advisory practice outreach project:
 
 ```
 id:           dt-2026-04-08-001
-decision:     Use property graph (Neo4j) instead of RDF triplestore for the context graph persistence layer
-context:      Building a personal decision intelligence system. Need to store decision traces with
-              flexible schema, rich relationships, and graph traversal. Single user, not enterprise scale.
-              Evaluated RDF triplestore (more expressive, PROV-O compatible) vs property graph
-              (simpler, better tooling, faster to implement).
-rationale:    Property graph is simpler to implement and query for a single-user system. RDF's
-              expressiveness advantages (named graphs, linked data interop) aren't needed at this
-              scale. Can migrate later if the personal-decision-intelligence-system requires it.
+decision:     Created a new card in the prospect pipeline for Susan. Also replied to Tim
+              (thanking him for the intro) and to Susan (suggesting a call).
+context:      Steve has an active project to reach out to colleagues and ask them to introduce
+              him to people matching his target audience for his private advisory practice.
+              Tim sent an email introducing Susan, who may be relevant — possibly as a prospect,
+              possibly as a channel, possibly as an interested peer. The nature of Susan's
+              relevance is ambiguous at this stage.
+rationale:    Best case is Susan is a prospect, so default to the highest-value interpretation
+              and create a pipeline card. The card can be reclassified later if she turns out
+              to be a channel or peer instead. Replying to both Tim and Susan maintains the
+              relationship and moves the conversation forward.
 alternatives:
-  - RDF triplestore with named graphs
-  - Hybrid event log + graph
-  - Plain files with manual linking
+  - File Susan as a contact only (no pipeline card) and follow up later
+  - Wait for more information before taking action
 date:         2026-04-08
-domain:       software-dev
-tags:         architecture, persistence, trade-off
-confidence:   medium
-precedent:    (none — first architectural decision in this project)
+domain:       advisory-outreach
+tags:         prospect, introduction, pipeline
+source:       email
+actors:       Tim, Susan
+precedent:    (none — early in this outreach project)
 ```
 
 ---
