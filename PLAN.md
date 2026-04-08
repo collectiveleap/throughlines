@@ -41,7 +41,7 @@ Before picking a format, define what a context graph must contain. Likely elemen
 ---
 
 ## Step 3: Design Minimal Viable Forms
-**Status:** Not started
+**Status:** Complete (draft for review)
 
 Create 2-3 candidate representations satisfying all constraints (human r/w, GenAI r/w, lossless translation, Markdown-storable). Candidates may include:
 - Structured Markdown (headings + key-value)
