@@ -108,11 +108,11 @@ Synthesizing the above for Steve's specific use case (personal, cross-domain, hu
 
 ---
 
-## 5. Open Questions for Steve
+## 5. Resolved Questions
 
-1. Does this definition align with your understanding from the Foundation Capital post?
-2. The subfolder `personal-decision-intelligence-system/` describes a much more elaborate system (four-layer architecture, rule genesis, CBR). Is that the long-term vision, with the root-level `problem-space.md` describing the immediate practical goal? Or has the thinking evolved?
-3. Are there specific decisions you've made recently (in software dev or email) that you'd want to use as test cases for defining the minimal viable form in Step 2?
+1. **Does this definition align?** Yes — Steve confirmed the working definition in Section 4 as the starting point.
+2. **Relationship to subfolder?** The `personal-decision-intelligence-system/` subfolder represents future work Steve intends to build *based on* the minimal viable forms and prompts defined here. This project is the foundation; that system is a downstream application.
+3. **Test cases?** Steve will provide specific recent decisions (software dev or email) to use as test cases. (Captured as Step 5a in the plan.)
 
 ---
 
