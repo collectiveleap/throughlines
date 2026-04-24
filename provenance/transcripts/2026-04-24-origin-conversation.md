@@ -1,7 +1,7 @@
 # Origin conversation: naming and framing
 
 *Date: 2026-04-24*
-*Participants: [Your Name], Claude (Anthropic, Claude Opus 4.7)*
+*Participants: Steve Sanderson, Claude (Anthropic, Claude Opus 4.7)*
 *Context: Initial conversation that produced the vocabulary, characteristics, repo name, README, and ATTRIBUTION for the `throughlines` project. This transcript includes tool-search results inline where they occurred, since some of them (notably the OpenClaw search) directly shaped the direction of the conversation.*
 
 ---
